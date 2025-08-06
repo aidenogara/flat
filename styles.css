@@ -10,6 +10,7 @@ nav {
 	box-shadow: 0px 0px 20px gray;
 	position: fixed;
 	width: 100%;
+	min-width: 320px;
 }
 
 .nav-left {
