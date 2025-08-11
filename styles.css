@@ -192,3 +192,24 @@ footer {
 	width: 100%;
 	font-size: 10px;
 }
+
+@media (max-width: 460px) {
+
+	.logo-container {
+		display: flex;
+		height: 50px;
+		content: url('sierra-logo-clear.png')
+	}
+
+	.phonenumber {
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+		font-size: 10px;
+	}
+
+	a {
+		font-size: 10px;
+	}
+
+}
