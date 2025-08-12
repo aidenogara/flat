@@ -1,5 +1,6 @@
 body {
 	margin: 0;
+	overflow-x: hidden;
 }
 
 nav {
@@ -96,6 +97,7 @@ div.testimonials {
 
 div.testimonials > h1 {
 	color: #3d6b49;
+	padding: 20px;
 }
 
 div.testimonial {
@@ -193,7 +195,7 @@ footer {
 	font-size: 10px;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 480px) {
 
 	.logo-container {
 		display: flex;
@@ -212,4 +214,25 @@ footer {
 		font-size: 10px;
 	}
 
+	div.announce {
+		margin: 200px 10px 100px 10px;
+	}
+
+	h1.who, h1.what {
+	}
+
+	p.who, p.what {
+		margin: 0 20px;
+	}
+
+	div.owner {
+		display: flex;
+		align-items: center;
+		padding: 20px;
+	}
+
+	img.owner-photo {
+		margin: 0 0 0 20px;
+		width: 80px;
+	}
 }
