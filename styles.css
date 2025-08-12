@@ -136,17 +136,18 @@ p.who {
 div.owner {
 	display: flex;
 	align-items: center;
+	justify-content: center;
 	width: 100vw;
 }
 
 img.owner-photo {
-	height: 70vh;
-	margin: 0 0 0 15vw;
+	height: 300px;
 }
 
 div.name-wrap {
 	display: flex;
 	align-items: center;
+	padding: 0 113px 0 0;
 }
 
 div.contact-info {
@@ -199,7 +200,7 @@ footer {
 
 	.logo-container {
 		display: flex;
-		height: 50px;
+		height: 80px;
 		content: url('sierra-logo-clear.png')
 	}
 
@@ -232,7 +233,10 @@ footer {
 	}
 
 	img.owner-photo {
-		margin: 0 0 0 20px;
-		width: 80px;
+		height: 240px;
+	}
+
+	div.name-wrap {
+		padding: 0 20px 0 0;
 	}
 }
