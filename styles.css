@@ -38,7 +38,7 @@ nav {
 	align-items: stretch;
 }
 
-.nav-button {
+a.nav-button {
 	display: flex;
 	align-items: center;
 	color: gray;
@@ -161,16 +161,15 @@ div.contact-info {
 }
 
 a.contact {
-	display: flex;
-	align-items: center;
-	color: gray;
+	background-color: #3d6b49;
+	color: white;
 	text-decoration: none;
-	background-color: transparent;
-	margin: 0px 10px 0px 20px;
+	padding: 10px;
+	margin: 0 0 20px 0;
 }
 
 a.contact:hover {
-	color: #3d6b49;
+	background-color: #83af80;
 }
 
 h1.what {
