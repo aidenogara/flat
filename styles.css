@@ -150,11 +150,28 @@ div.name-wrap {
 	padding: 0 113px 0 0;
 }
 
+div.contact-content {
+	padding: 100px;
+}
+
 div.contact-info {
 	padding: 100px 0 0 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+a.contact {
+	display: flex;
+	align-items: center;
+	color: gray;
+	text-decoration: none;
+	background-color: transparent;
+	margin: 0px 10px 0px 20px;
+}
+
+a.contact:hover {
+	color: #3d6b49;
 }
 
 h1.what {
@@ -182,9 +199,10 @@ div.tech-grid {
 }
 
 img.tech {
-	object-fit: cover;
-	width:100%;
-	max-height:100%;
+	object-fit: fill;
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
 }
 
 footer {
@@ -200,7 +218,7 @@ footer {
 
 	.logo-container {
 		display: flex;
-		height: 80px;
+		height: 60px;
 		content: url('sierra-logo-clear.png')
 	}
 
@@ -208,11 +226,11 @@ footer {
 		display: flex;
 		align-items: center;
 		text-decoration: none;
-		font-size: 10px;
+		font-size: 8px;
 	}
 
 	a {
-		font-size: 10px;
+		font-size: 9px;
 	}
 
 	div.announce {
@@ -238,5 +256,18 @@ footer {
 
 	div.name-wrap {
 		padding: 0 20px 0 0;
+	}
+
+	div.tech-grid {
+		margin:  0rem 10rem;
+		display: grid;
+		grid-column-gap: 10px;
+		grid-row-gap: 10px;
+		grid-template-rows: auto;
+		grid-template-columns: 80rem 80rem;
+		justify-content: flex-start;
+	}
+
+	img.tech {
 	}
 }
