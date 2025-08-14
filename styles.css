@@ -197,6 +197,10 @@ div.tech-grid {
 	justify-content: flex-start;
 }
 
+div.grid-box {
+	display: flex;
+}
+
 img.tech {
 	object-fit: fill;
 	display: block;
@@ -277,10 +281,14 @@ footer {
 		grid-column-gap: 10px;
 		grid-row-gap: 10px;
 		grid-template-rows: auto;
-		grid-template-columns: 80rem 80rem;
+		grid-template-columns: 100px 100px 100px;
 		justify-content: flex-start;
 	}
 
+	div.grid-box {
+	}
+
 	img.tech {
+		object-fit: contain;
 	}
 }
