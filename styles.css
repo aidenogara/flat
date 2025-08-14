@@ -65,7 +65,6 @@ nav {
 	background-image: url('mountains.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
-	min-height: 70vh;
 }
 
 div.announce {
@@ -233,8 +232,22 @@ footer {
 		font-size: 9px;
 	}
 
+
+	.index-content {
+		padding: 60px 0 0 0;
+	}
+
 	div.announce {
-		margin: 200px 10px 100px 10px;
+		margin: 150px 10px 50px 10px;
+		padding: 30px 30px;
+	}
+
+	h1 {
+		font-size: 15px;
+	}
+
+	p {
+		font-size: 9px;
 	}
 
 	h1.who, h1.what {
