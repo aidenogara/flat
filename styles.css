@@ -68,7 +68,7 @@ a.nav-button {
 }
 
 div.announce {
-	margin: 200px 0px 100px 0px;
+	margin: 200px 40px 100px 40px;
 	padding: 30px 30px;
 	border-radius: 5px;
 	color: #3d6b49;
@@ -251,6 +251,10 @@ footer {
 
 	p {
 		font-size: 9px;
+	}
+
+	h4 {
+		font-size: 10px;
 	}
 
 	h1.who, h1.what {
