@@ -24,7 +24,7 @@ nav {
 .logo-container {
 	display: flex;
 	height: 80px;
-	content: url('sierra-logo-clear.png')
+	content: url('sierra-logo-clear.png');
 }
 
 .phonenumber {
@@ -223,28 +223,30 @@ footer {
 	font-size: 10px;
 }
 
-@media (max-width: 480px) {
+
+@media (max-width: 580px) {
 
 	.logo-container {
-		display: flex;
-		height: 60px;
-		content: url('sierra-logo-clear.png')
+		height: 80px;
 	}
 
 	.phonenumber {
 		display: flex;
 		align-items: center;
 		text-decoration: none;
-		font-size: 8px;
+		font-size: 10px;
 	}
 
 	a {
 		font-size: 9px;
 	}
 
+	a.nav-button {
+		font-size: 12px;
+	}
 
 	.index-content {
-		padding: 60px 0 0 0;
+		padding: 40px 0 0 0;
 	}
 
 	div.announce {
@@ -299,3 +301,12 @@ footer {
 		object-fit: contain;
 	}
 }
+
+@media (max-width: 380px) {
+
+	.logo-container {
+		height: 45px;
+	}
+
+}
+
