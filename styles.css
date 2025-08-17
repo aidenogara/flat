@@ -3,6 +3,13 @@ body {
 	overflow-x: hidden;
 }
 
+.header-bar {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	width: 100%;
+}
+
 nav {
 	background-color: #fffff5;
 	display: flex;
@@ -10,6 +17,22 @@ nav {
 	margin: 0 auto;
 	box-shadow: 0px 0px 20px gray;
 	position: fixed;
+	width: 100%;
+	z-index: 3;
+}
+
+.banner {
+	padding: 80px 0 0 0;
+	display: flex;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	background-color: #b1b3ae;
+	z-index: 2;
+}
+
+p.pledge {
+	text-align: center;
 	width: 100%;
 }
 
@@ -65,6 +88,7 @@ a.nav-button {
 	background-image: url('mountains.jpg');
 	background-repeat: no-repeat;
 	background-size: 100%;
+	margin: 80px 0 0 0;
 }
 
 div.announce {
@@ -260,6 +284,10 @@ footer {
 
 	p {
 		font-size: 16px;
+	}
+
+	p.pledge {
+		font-size: 12px;
 	}
 
 	h4 {
